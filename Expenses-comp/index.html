@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Expenses Chart Component</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="top">
+            <p class="des">My balance</p>
+            <p class="price1">$921.48</p>
+            <img src="Images/logo.svg" alt="logo" class="mylogo">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="flex2">
+        <div class="info">
+            <h3>Spending - Last 7 days</h3>
+            <div class="mid">
+                <canvas id="myChart"></canvas>
+            </div>
+            <hr>
+            <div class="flex3">
+                <div class="item">
+                    <p class="des2">Total this month</p>
+                    <p class="price2">$478.33</p>
+                </div>
+                <div class="item2">
+                    <p class="percent">+2.4%</p>
+                    <p class="time">from last month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="JavaScript/index.js"></script>
+</body>
+
+</html>
